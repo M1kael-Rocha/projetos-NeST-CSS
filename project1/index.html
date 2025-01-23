@@ -6,19 +6,268 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Modelo</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="./assets/js/main.js" defer></script>
   </head>
 
   <body>
+    <header class="header-container">
+      <div class="header__logo">
+        <p><span>LEAK.</span></p>
+        <p>Cursos online</p>
+      </div>
+      <div class="header__search">
+        <form action="#" class="header__search--input">
+          <input type="search" name="search-input" id="" />
+          <div class="search__btn">
+            <button>🔎</button>
+          </div>
+        </form>
+      </div>
+      <div class="header__user">👤</div>
+    </header>
+
     <section class="container">
-      <h1>Lorem ipsum dolor sit amet</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
-        nisi explicabo saepe voluptatibus consequuntur et corporis maxime quos,
-        doloribus vitae voluptatum quisquam necessitatibus pariatur veritatis
-        exercitationem beatae officiis suscipit Ea!
-      </p>
+      <div class="title-subtitle">
+        <div class="product__title">
+          <h1>Cursos de programação - Aprenda do zero ao avançado</h1>
+        </div>
+        <div class="product__subtitle">
+          <h2>
+            Linguagem incluidas: PHP, JS, TypeScript, Python, Ruby, C, C++ e C
+            Sharp
+          </h2>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product__img">
+          <img src="assets/img/Curso-de-programação.png" alt="img-produto" />
+        </div>
+        <div class="product__content">
+          <div class="product__about">
+            <p>
+              Domine as linguagens de programação mais requisitadas no mercado
+              com nosso curso prático e dinâmico! Aprenda desde os fundamentos
+              até a criação de projetos reais, com uma metodologia que une
+              teoria, prática e suporte especializado. Seja você iniciante ou
+              experiente, conquiste as habilidades para se destacar no mundo da
+              tecnologia. Invista no seu futuro hoje!
+            </p>
+          </div>
+          <div class="price-main">
+            <p><span class="price__text">R$ 169,99</span></p>
+            <p>
+              À vista no PIX com <span class="price__text--bold">15% OFF</span>
+            </p>
+          </div>
+          <div class="price-main__payments">
+            <p><span class="price__text--bold">R$ 199,99</span></p>
+            <p>
+              Em até 7x de <span class="price__text--bold">R$ 28,57</span> sem
+              juros no cartão
+            </p>
+            <p>
+              Ou em 1x no cartão com
+              <span class="price__text--bold">10% OFF</span>
+            </p>
+          </div>
+          <div class="btn-buy">
+            <button>🛒 COMPRAR</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="descripition-product__title">
+        <h3>📄 SOBRE O PRODUTO</h3>
+      </div>
+
+      <div class="descripition-product-content__left">
+        <div class="descripition-product-content__about">
+          <div class="product-content__about--title">
+            <h4>PHP</h4>
+          </div>
+          <div class="product-content__about--text">
+            <p>
+              Ideal para quem deseja criar sites dinâmicos e sistemas web, o PHP
+              é uma das linguagens mais utilizadas para desenvolvimento backend.
+              Com uma sintaxe simples e uma ampla comunidade, ela alimenta
+              plataformas como WordPress e grandes sites. Sua capacidade de se
+              integrar com bancos de dados como MySQL e PostgreSQL faz dele uma
+              excelente escolha para quem deseja desenvolver sistemas robustos.
+            </p>
+          </div>
+        </div>
+        <div class="descripition-product-content__img">
+          <img src="assets/img/php.png" alt="php-png" />
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="descripition-product-content__right">
+        <div class="descripition-product-content__img">
+          <img src="assets/img/javascript.png" alt="java.png" />
+        </div>
+        <div class="descripition-product-content__about">
+          <div class="product-content__about--title">
+            <h4>JavaScript (JS)</h4>
+          </div>
+          <div class="product-content__about--text">
+            <p>
+              Se você já navegou na internet, com certeza interagiu com
+              JavaScript! Essa linguagem é o coração do desenvolvimento
+              frontend, responsável por tornar páginas da web interativas e
+              dinâmicas. Além disso, com a ajuda de tecnologias como Node.js,
+              JavaScript também domina o backend, permitindo a criação de
+              aplicações completas com uma única linguagem.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="descripition-product-content__left">
+        <div class="descripition-product-content__about">
+          <div class="product-content__about--title">
+            <h4>TypeScript</h4>
+          </div>
+          <div class="product-content__about--text">
+            <p>
+              Um superconjunto de JavaScript, o TypeScript adiciona tipagem
+              estática à linguagem, tornando o código mais seguro e fácil de
+              manter. Muito utilizado em projetos de larga escala e frameworks
+              como Angular, ele é ideal para quem deseja criar aplicações web
+              modernas e escaláveis.
+            </p>
+          </div>
+        </div>
+        <div class="descripition-product-content__img">
+          <img src="assets/img/typescript.jpeg" alt="typescript-jpeg" />
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="descripition-product-content__right">
+        <div class="descripition-product-content__img">
+          <img src="assets/img/python.jpeg" alt="python.jpeg" />
+        </div>
+        <div class="descripition-product-content__about">
+          <div class="product-content__about--title">
+            <h4>Python</h4>
+          </div>
+          <div class="product-content__about--text">
+            <p>
+              Uma das linguagens mais versáteis do mercado, Python é conhecida
+              por sua simplicidade e poder. Seja para análise de dados,
+              inteligência artificial, automação ou desenvolvimento web, Python
+              é a escolha certa para quem quer aprender rápido e criar soluções
+              impactantes. Sua sintaxe clara é perfeita para iniciantes e
+              profissionais.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="descripition-product-content__left">
+        <div class="descripition-product-content__about">
+          <div class="product-content__about--title">
+            <h4>Ruby</h4>
+          </div>
+          <div class="product-content__about--text">
+            <p>
+              Elegante e focado na simplicidade, Ruby é a base do popular
+              framework Ruby on Rails, amplamente utilizado no desenvolvimento
+              web. Com uma filosofia que prioriza a produtividade e a diversão
+              no código, Ruby é perfeito para startups e projetos rápidos.
+            </p>
+          </div>
+        </div>
+        <div class="descripition-product-content__img">
+          <img src="assets/img/ruby.png" alt="ruby.png" />
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="descripition-product-content__right">
+        <div class="descripition-product-content__img">
+          <img src="assets/img/c.jpg" alt="c.jpg" />
+        </div>
+        <div class="descripition-product-content__about">
+          <div class="product-content__about--title">
+            <h4>Programação em C</h4>
+          </div>
+          <div class="product-content__about--text">
+            <p>
+              Clássica e poderosa, a linguagem C é a base para muitas outras
+              linguagens modernas. Focada em desempenho e controle de hardware,
+              é amplamente utilizada em sistemas operacionais, drivers e
+              softwares que exigem alta performance. Aprender C é essencial para
+              quem deseja entender os fundamentos da programação.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="descripition-product-content__left">
+        <div class="descripition-product-content__about">
+          <div class="product-content__about--title">
+            <h4>Programação em C++</h4>
+          </div>
+          <div class="product-content__about--text">
+            <p>
+              Uma evolução do C, o C++ combina o poder da programação
+              estruturada com a flexibilidade da programação orientada a
+              objetos. Ele é amplamente utilizado em áreas como jogos, softwares
+              gráficos, sistemas embarcados e aplicações que exigem alto
+              desempenho.
+            </p>
+          </div>
+        </div>
+        <div class="descripition-product-content__img">
+          <img src="assets/img/c++.png" alt="c++.png" />
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="descripition-product-content__right">
+        <div class="descripition-product-content__img">
+          <img src="assets/img/csharp.png" alt="csharp.png" />
+        </div>
+        <div class="descripition-product-content__about">
+          <div class="product-content__about--title">
+            <h4>Programação em C# (C Sharp)</h4>
+          </div>
+          <div class="product-content__about--text">
+            <p>
+              Desenvolvida pela Microsoft, C# é uma linguagem robusta e moderna,
+              amplamente utilizada para criar aplicações Windows, jogos com
+              Unity, e sistemas corporativos. Sua sintaxe amigável e recursos
+              avançados tornam-na uma escolha poderosa para desenvolvedores de
+              todos os níveis.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <footer class="footer-container">
+      <div class="footer__text">
+        <div class="footer__text--title">
+          <h4>Realizado por:</h4>
+        </div>
+        <div class="footer__text--about">
+          <p>Mikael Rocha Bernardes</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
