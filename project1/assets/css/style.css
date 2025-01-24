@@ -184,6 +184,11 @@ body {
   font-weight: bold;
   font-size: 20px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-buy button:hover{
+  transform: scale(1.01);
 }
 
 .line{
@@ -256,4 +261,50 @@ body {
 .footer__text--title h4,
 .footer__text--about p{
   margin: 0;
+}
+
+.form-interest{
+  display: flex;
+  justify-content: center;
+}
+
+.form-interest__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-interest__content label{
+  margin-bottom: 10px;
+}
+
+.interest-area{
+  resize: none;
+  padding: 10px;
+  width: 400px;
+  height: 200px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-submit{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn-submit button{
+  border: 1px solid black;
+  padding: 15px;
+  width: 25%;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-submit button:hover{
+  transform: scale(1.01);
 }
