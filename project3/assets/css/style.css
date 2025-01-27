@@ -209,3 +209,82 @@ body {
   font-weight: 600;
   font-size: 15px;
 }
+
+@media screen and (max-width: 995px){
+.container{
+  margin: 0;
+  flex-direction: column;
+  width: 100%;
+}
+
+.panelist-content{
+  flex-direction: column;
+}
+
+.panelist-content__img img{
+  width: 100%;
+  justify-content: center;
+}
+
+.panelist-title h1{
+  font-size: 23px;
+}
+
+.btn-register button{
+  width: 100%;
+  font-size: 18px;
+}
+
+.location__title h2{
+  font-size: 14px;
+}
+
+.location-content{
+  flex-direction: column;
+}
+
+.location__img{
+  display: flex;
+  justify-content: center;
+}
+
+.location__maps{
+  display: flex;
+  justify-content: center;
+}
+
+.location__img img{
+  width: 300px;
+}
+
+.location__maps iframe{
+  width: auto;
+  height: 200px;
+}
+
+.lecture__about--title h2{
+  font-size: 20px;
+  text-align: center;
+}
+
+.lecture__title h3{
+  font-size: 17px;
+}
+
+.form-container{
+  flex-direction: column;
+}
+
+.form__content--text{
+  margin: 0;
+}
+
+.form__content--text,
+.form-register-content{
+  width: 100%;
+}
+
+.footer__text p{
+  font-size: 10px;
+}
+}
